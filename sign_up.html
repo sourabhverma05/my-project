@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page </title>
+    <link rel="stylesheet" href="./css/sign_up.css">
+</head>
+
+<body>
+
+    <form id="signup_box">
+        <h1 id="main_heading">Signup</h1>
+        <input type="text" name="" id="name" placeholder="Name" required>
+        <input type="text" name="" id="user_name" placeholder="Username" required>
+        <input type="number" name="" id="age" placeholder="age" required>
+        <input type="number" name="" id="mobile_number" placeholder="Mobile No." required>
+        <input type="text" name="" id="email" placeholder="Email" required>
+        <input type="password" name="" id="password" placeholder="Password" required>
+        <input type="password" name="" id="conf_password" placeholder="Confirm Password" required>
+        <button onclick="signup()" id="signup_button">Signup</button>
+        <p id="login_page">Already have an account?<a href="#">Login</a></p>
+    </form>
+    <form id="login_box">
+        <h1 id="main_heading">Login</h1>
+        <input type="text" id="email" placeholder="Email">
+        <input type="text" id="Password" placeholder="Password">
+        <button onclick="login()" id="login_button">Login</button>
+        <p id="signup_page">Don't have an account?<a href="#"> Signup</a></p>
+    </form>
+    <script src="./js/sign_up.js"></script>
+</body>
+
+</html>

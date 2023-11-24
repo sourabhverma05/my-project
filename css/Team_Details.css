@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Heebo", sans-serif;
+}
+
+#logo {
+    font-size: 26px;
+    color: #4646ff;
+    font-weight: 800;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    box-shadow: rgba(185, 185, 185, 0.16) 0px 3px 6px, rgba(230, 230, 230, 0.23) 0px 3px 6px;
+    font-family: "Poppins";
+    padding: 18px 60px;
+    font-family: "Poppins";
+
+
+}
+
+#nav__list {
+    display: flex;
+    gap: 46px;
+    list-style: none;
+}
+
+#nav__list .nav__link {
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#nav__list .nav__link a {
+    text-decoration: none;
+    color: #3535cc;
+
+}
+
+#nav__list .nav__link a:hover{
+    color :#3535cc;
+    font-weight: 800;
+}
+
+
+#item__details{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+   padding: 40px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    gap :40px;
+    margin-top: 40px;
+}
+
+.detailPage__image{
+    width: 38%;
+    height: 38%;
+    border-radius: 20px;
+    }
+
+    .Card_all_details b{
+        font-size: 22px;
+    }
+    .Card_all_details{
+        font-size: 20px;
+        line-height: 42px;
+
+    }
+    h1{
+        color: #212179;
+    }

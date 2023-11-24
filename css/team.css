@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400&family=Shrikhand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+#logo {
+    font-size: 26px;
+    color: #4646ff;
+    font-weight: 800;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    box-shadow: rgba(185, 185, 185, 0.16) 0px 3px 6px, rgba(230, 230, 230, 0.23) 0px 3px 6px;
+    font-family: "Poppins";
+    padding: 16px 60px;
+
+}
+
+#nav__list {
+    display: flex;
+    gap: 46px;
+    list-style: none;
+    color: #4d4d4d;
+}
+
+#nav__list .nav__link {
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#nav__list .nav__link a {
+    text-decoration: none;
+    color: #3535cc;
+
+}
+
+#nav__list .nav__link a:hover {
+    color: #3535cc;
+    font-weight: 800;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 25px;
+    padding: 30px 0 30px 110px; 
+    text-align: center;
+    line-height: 24px;
+    padding-top: 30px;
+
+}
+
+.card .main__div {
+    width: 300px;
+    height: 470px;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.card__image{
+    width : 210px;
+    height: 290px;
+    border-radius: 6px;
+}
+
+.cardName{
+    margin-top: 10px;
+    color: #3b3b3b;
+}
+.cardAbout{
+    color: #3e3e3e;
+}
+
+.button {
+    margin-top: 16px;
+}
+
+.button .card__button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border: 1px solid #3535cc;
+    background: #3535cc;
+    color: #fafafa;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.button .card__button:hover {
+    border: none;
+    background: #c4e6ff;
+    color: #3535cc;
+    font-weight: 600; 
+    width: 120px;
+    height: 35px;
+    border: 1px solid #3535cc;
+    border-radius: 3px;
+    
+}
+.button .card__button:active{
+    width: 80px;
+    height: 20px;
+}
