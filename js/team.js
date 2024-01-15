@@ -33,7 +33,7 @@ fetch('./data.json')
 
       button.addEventListener("click", function () {
         localStorage.setItem("item", JSON.stringify(item));
-        window.location.href = ("http://127.0.0.1:5500/Team_Details.html");
+        window.location.href = ("Team_Details.html");
       });
     });
   });
